@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #2c2c2c;
+  background-color: #fefefe;
+}
 ul,
 ol {
   margin: 0;
@@ -8,26 +14,49 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 .container {
   max-width: 1280px;
+  margin: 0 auto;
 }
-
+.btn-order {
+  padding: 6px 18px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  background: #bbf330;
+  border: none;
+  border-radius: 30px;
+}
+.btn-order:hover,
+.btn-order:focus {
+  cursor: pointer;
+  background: #ffe450;
+}
 /*  ======== HEADER STYLES ========== */
-
+.page-header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+}
 .page-header .container {
   padding: 10px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .box-nav-btnOrder {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-
 .page-nav {
   display: flex;
   align-items: center;
@@ -35,4 +64,89 @@ a {
 }
 .nav-link {
   padding: 100% 0;
+  font-size: 14px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #bbf330;
+  text-decoration: underline;
+}
+
+/*  ======== HERO STYLES ========== */
+.hero-container {
+  padding-top: 14px;
+  padding-bottom: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-wrapper-text {
+  max-width: 511px;
+}
+.hero-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+.hero-text {
+  margin-bottom: 40px;
+}
+.hero-img {
+  border: 26px solid#ffe450;
+  border-radius: 50%;
+}
+
+/*  ======== ABOUT STYLES ========== */
+.about-section {
+  background: #ffe550;
+}
+.about-container {
+  padding-top: 113px;
+  padding-bottom: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.about-img {
+  max-width: 573px;
+}
+.about-title {
+  width: 80%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.about-text {
+  width: 80%;
+  margin-bottom: 40px;
+}
+.about-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  gap: 67px;
+}
+.about-icon {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.about-item-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.about-section .btn-order {
+  background-color: #fff;
+  border: 2px solid #bbf330;
+}
+.about-section .btn-order:hover,
+.about-section .btn-order:focus {
+  background-color: #bbf330;
 }
