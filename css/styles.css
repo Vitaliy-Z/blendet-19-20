@@ -8,10 +8,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+body{
+  font-family: "Roboto",sans-serif;
+}
 .container {
   max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
+
 
 /*  ======== HEADER STYLES ========== */
 
@@ -20,6 +25,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .box-nav-btnOrder {
@@ -35,4 +41,66 @@ a {
 }
 .nav-link {
   padding: 100% 0;
+}
+.hero {
+
+  padding: 14px 0 69px 0;
+}
+.container {
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.hero-main-text {
+  padding-top: 145px;
+  padding-bottom: 150px;
+}
+.title-hero {
+  color: #2C2C2C;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.2;
+ margin-bottom: 28px;
+ width: 503px;
+}
+.hero-descr {
+  margin-bottom: 40px;
+  color: #2C2C2C;
+  
+  font-size: 16px;
+  
+  font-weight: 400;
+  line-height: 1.5;
+  width: 511px;
+}
+.btn-order {
+  color: #2C2C2C;
+text-align: right;
+font-family: inherit;
+font-size: 13px;
+
+font-weight: 500;
+line-height: 1.5;
+display: inline-flex;
+padding: 6px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background: #BBF330;
+cursor: pointer;
+border: none;
+
+}
+.salad-box {
+  border-radius: 580px;
+border: 26px solid #FFE550;
+width: 580px;
+height: 580px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
