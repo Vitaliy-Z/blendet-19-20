@@ -27,6 +27,17 @@ p {
   margin: 0;
   padding: 0;
 }
+input {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
 .container {
   padding: 0 16px;
   max-width: 1280px;
@@ -40,10 +51,11 @@ p {
   background: #bbf330;
   border: none;
   border-radius: 30px;
+
+  transition: background-color 300ms ease-in-out;
 }
 .btn-order:hover,
 .btn-order:focus {
-  cursor: pointer;
   background: #ffe450;
 }
 /*  ======== HEADER STYLES ========== */
@@ -150,6 +162,8 @@ p {
 .about-section .btn-order {
   background-color: #fff;
   border: 2px solid #bbf330;
+
+  transition: background-color 300ms ease-in-out;
 }
 .about-section .btn-order:hover,
 .about-section .btn-order:focus {
@@ -239,4 +253,51 @@ p {
 }
 .review-card-text {
   font-size: 14px;
+}
+
+/*  ======== SUBSCRIBE STYLES ========== */
+.subscribe-section {
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+.subscribe-section .container {
+  display: flex;
+}
+.subscribe-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.subscribe-text {
+  max-width: 80%;
+  margin-bottom: 24px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 32px;
+}
+.email-input {
+  width: 395px;
+  padding: 12px 11px;
+  font-size: 12px;
+  color: #505050;
+  border: 1px solid #ffe550;
+  border-radius: 30px;
+  outline: none;
+  transition: border-color 350ms ease-in-out;
+}
+.email-input:focus-visible {
+  border-color: #7eb101;
+}
+.btn-submit-form {
+  padding: 11px 22px;
+  border-radius: 30px;
+  background-color: #bbf330;
+
+  transition: background-color 300ms ease-in-out;
+}
+.btn-submit-form:hover,
+.btn-submit-form:focus {
+  background-color: #ffe450;
 }
