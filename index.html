@@ -45,20 +45,72 @@
       <section class="hero">
         <div class="container hero-container">
           <div class="hero-main-text">
-        <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
-        <p class="hero-descr">
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button class="btn-order" type="button">Order Now</button>
-      </div>
-      <div class="salad-box">
-        <img src="./images/salad.png" alt="Salad">
-      </div>
-      </div>
+            <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-descr">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button class="btn-order" type="button">Order Now</button>
+          </div>
+          <div class="salad-box">
+            <img src="./images/salad.png" alt="Salad" />
+          </div>
+        </div>
       </section>
+      <section class="offerings"></section>
+      <section class="favorites"></section>
+      <section class="reviews"></section>
+      <section class="subscribe"></section>
+      <section class="footer"></section>
+
+      <div class="backdrop">
+        <div class="modal">
+          <button class="close-btn">
+            <svg class="close-icon" width="11" height="11">
+              <use href="./images/icon.svg#icon-close"></use>
+            </svg>
+          </button>
+          <p class="title-form">Order Form</p>
+          <form class="form-modal">
+            <div class="form-label-input">
+              <label class="form-label" for="user-name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="user-name"
+                name="text"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-label-input">
+              <label class="form-label" for="user-phone">Phone number</label>
+              <input
+                class="form-input"
+                type="tel"
+                id="user-phone"
+                name="tel"
+                placeholder="+38(0_ _) _ _ _   _ _   _ _"
+                required
+              />
+            </div>
+            <div class="form-label-input">
+              <label class="form-label" for="user-email">E-mail</label>
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <button class="form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </main>
   </body>
 </html>
